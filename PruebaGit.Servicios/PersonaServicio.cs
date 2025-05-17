@@ -1,4 +1,5 @@
 ﻿using PruebaGit.Datos;
+using PruebaGit.Entidades;
 
 namespace PruebaGit.Servicios
 {
@@ -8,6 +9,10 @@ namespace PruebaGit.Servicios
         public PersonaServicio()
         {
             personaRepositorio = new PersonaRepositorio();
+        }
+        public List<Persona> GetLista()
+        {
+            return personaRepositorio!.GetLista();
         }
 
     }

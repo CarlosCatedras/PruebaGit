@@ -19,5 +19,13 @@ namespace PruebaGit.Datos
             personas.Add(new Persona { Id = 4, Nombre = "Pedro", Apellido = "González" });
             personas.Add(new Persona { Id = 5, Nombre = "Laura", Apellido = "Rodríguez" });
         }
+        /// <summary>
+        /// Método para informar las personas
+        /// </summary>
+        /// <returns>retorna la lista de personas</returns>
+        public List<Persona> GetLista()
+        {
+            return personas;
+        }
     }
 }
