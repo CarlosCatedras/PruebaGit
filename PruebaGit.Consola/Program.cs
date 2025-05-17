@@ -7,7 +7,7 @@ namespace PruebaGit.Consola
         static void Main(string[] args)
         {
             var servicio = new PersonaServicio();
-            Console.WriteLine("Manejo de Personas");
+            Console.WriteLine("Manejo de Personas para practica de Guit");
             Console.WriteLine("1 - Agregar");
             Console.WriteLine("2 - Borrar");
             Console.WriteLine("3 - Editar");
